@@ -12,5 +12,5 @@ test('if amount is not number', () => {
 
   expect(() => {
     stringToNumber(amount);
-  }).toThrow(new Error('tgyhi'));
+  }).toThrow(new Error('Некорректные данные: введите число в десятичной системе исчисления!'));
 });
